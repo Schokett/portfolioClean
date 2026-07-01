@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* noto-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-sans-v42-latin-regular.woff2") format("woff2");
+}
+/* noto-sans-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/noto-sans-v42-latin-600.woff2") format("woff2");
+}
+/* noto-sans-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/noto-sans-v42-latin-800.woff2") format("woff2");
+}
+@theme {
+  --font-sans: "Noto Sans", sans-serif;
+}
